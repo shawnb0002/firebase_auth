@@ -37,6 +37,7 @@ class Login extends Component {
               value={this.state.email}
               onChange={this.handleChange}
               type="email"
+              name="email"
               className=""
               id="exampleInputEmail"
             />
@@ -48,6 +49,7 @@ class Login extends Component {
               value={this.state.password}
               onChange={this.handleChange}
               type="password"
+              name="password"
               className=""
               id="exampleInputEmail"
             />
